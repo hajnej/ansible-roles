@@ -1,0 +1,5 @@
+---
+# defaults file for time
+time_timezone: "Europe/Prague"
+time_ntp_client: "chrony"
+time_ntp_daemon: "{{time_ntp_client}}d"

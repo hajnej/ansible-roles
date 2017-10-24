@@ -1,0 +1,7 @@
+---
+# Ansible playbook to test roles
+- name: "Test ansible role"
+  hosts: "all"
+  become: True
+  roles:
+    - { role: "time" }

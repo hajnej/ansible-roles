@@ -1,0 +1,7 @@
+---
+# handlers file for time
+- name: "Restart ntp client"
+  service:
+    name: "{{time_ntp_daemon}}"
+    state: "restarted"
+    enabled: yes
